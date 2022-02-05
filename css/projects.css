@@ -1,0 +1,96 @@
+.awqaf-section{
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.awqaf-section .nor-txt{
+    margin: auto;
+    line-height: 35px;
+    text-align: center;
+    max-width: 975px;
+    font-size: 17px;
+    color: #434343;
+    margin-bottom: 30px;
+}
+
+.element{
+    position: relative;
+    overflow: hidden;
+}
+.element > img{
+    transition: 0.5s all ease-in-out;
+}
+.element > img:hover{
+    transform: scale(1.2,1.2);
+}
+.element .title-div{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(57,57,57,0.85);
+    padding: 15px 25px;
+    transition: 0.3s all ease-in-out;
+}
+.element .title-div:hover{
+    background-color: rgba(0,128,0,0.85);
+}
+.element .title-div > p{
+    font-size: 18px;
+    color: #fff;
+}
+/*xs*/
+@media (max-width:767px){
+    .awqaf-section{
+        padding-top: 70px;
+        padding-bottom: 0px;
+    }
+    .element{
+        width: 350px;
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    } 
+}
+
+
+
+
+/*-------------------- pages-div ------------------------*/
+.pages-div{
+    text-align: center;
+}
+.pages-div a{
+    position: relative;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    background-color: #ededed;
+    border-radius: 50%;
+    transition: 0.3s all ease-in-out;
+    margin: 0px 2px;
+}
+.pages-div a.active{
+    background-color: #008000;
+}
+.pages-div a.active > span{
+    color: #fff;
+}
+.pages-div a > span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #838383;
+    font-size: 16px;
+    transition: 0.3s all ease-in-out;
+}
+.pages-div a > span > i{
+    margin-left: -2px;
+    margin-top: -1px;
+}
+.pages-div a:hover{
+    background-color: #008000;
+}
+.pages-div a:hover > span{
+    color: #fff;
+}

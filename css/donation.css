@@ -1,0 +1,137 @@
+*{
+    outline: none !important;
+}
+.hvr-shutter-out-horizontal:before {
+  background: #fff;
+}
+/*------------------------------------ start donation-section -------------------------------------------*/
+.donation-section{
+    padding-top: 100px;
+}
+.donation-form{
+    text-align: center;
+    width: 750px;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.donation-form label{
+    font-size: 20px;
+    color: #434343;
+    font-family: ITC_MEDIUM;
+    margin-bottom: 15px;
+}
+.donation-form input{
+    display: block;
+    width: 100%;
+    height: 65px;
+    border: 1px solid #e6e6e6;
+    border-radius: 35px;
+    padding: 0px 50px;
+    padding-left: 40px;
+    font-size: 17px;
+    color: #9a9a9a;    
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:8px;
+    color: #333;
+    text-align:center;
+    position:relative;
+}    
+input[type=number]:hover::-webkit-inner-spin-button { 
+    background: #fff url('../pic/donation-num.jpg') no-repeat 50% 50%;  
+    width: 10px;
+    height: 20px;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+    border-radius: 28px;
+}
+.donation-form .form-group{
+    margin-bottom: 25px;
+}
+/*-- select style --*/
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+    width: 100%;
+    outline: none;
+}
+.bootstrap-select>.dropdown-toggle{
+    height: 65px;
+    border-color: #e6e6e6;
+    border-radius: 35px;
+    padding: 0px 50px;
+    background-color: #fff;
+    box-shadow: none;
+    outline: none !important;
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
+    background-color: #fff;
+    box-shadow: none;
+    outline: none !important;
+    border-color: #008000 !important;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: none;
+    border-bottom: 1px dotted #e6e6e6;
+}
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus{
+    background-color: #fff;
+    box-shadow: none;
+    outline: none !important;
+    border-color: #008000 !important;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option{
+    text-align: right;
+    font-size: 17px;
+    color: #9a9a9a;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret{
+    right: auto;
+    left: 40px;
+    color: #a9a9a9;
+}
+.bootstrap-select.btn-group .dropdown-menu{
+    margin: 0px;
+    border-radius: 0px;
+    border-top: none;
+    border-color: #008000;
+    padding: 25px 0px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    box-shadow: none;
+}
+.bootstrap-select.btn-group .dropdown-menu li a{
+    font-size: 17px;
+    color: #9a9a9a;
+    padding: 5px 50px;
+    transition: 0.3s all ease-in-out;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li.selected a{
+    color: #008000;
+    background-color: transparent;
+    outline: none;
+}
+.bootstrap-select.btn-group .dropdown-menu li:hover a{
+    color: #008000;
+    background-color: transparent;
+    outline: none;
+}
+
+/*xs*/
+@media (max-width:767px){
+    .donation-section{
+        padding-top: 65px;
+    }
+    .donation-form{
+        margin-bottom: 25px;
+        margin-top: 50px;
+    }
+}
+
+/*------------------------------------ end donation-section ---------------------------------------------*/

@@ -1,0 +1,121 @@
+.about-section{
+    margin-top: 0px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.page-h{
+    margin-bottom: 75px;
+}
+
+/*---------------------------- start join-section -----------------------------------------------*/
+.join-section{
+    background-color: #31a631;
+    background-image: url(../pic/become-member-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    
+}
+.join-up > img{
+    width: 100%;
+}
+.join-down > img{
+    width: 100%;
+}
+.join-content{
+    position: relative;
+    text-align: center;
+    height: 650px;
+}
+.join-content p{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-family: ITC_MEDIUM;
+    margin-bottom: 25px;
+}
+.join-content a{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding-top: 10px;
+    margin: auto;
+    transition: 0.5s all ease-in-out;
+}
+.join-content a:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: #008000;
+    transform: scale(1.2,1.2);
+}
+.join-content .join-inner{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    right: 0px;
+    transform: translateY(-50%);
+}
+.becomeMember-form{
+    text-align: right;
+    padding-top: 50px;
+}
+.becomeMember-form .form-group{
+    margin-bottom: 20px;
+}
+.becomeMember-form label{
+    font-size: 18px;
+    color: #fff;
+    padding-right: 40px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.becomeMember-form label > span{
+    color: red;
+}
+.becomeMember-form .form-control{
+    height: 65px;
+    width: 100%;
+    padding: 0px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 35px;
+    box-shadow: none;
+    transition: 0.3s all ease-in-out;
+}
+.becomeMember-form textarea.form-control{
+    resize: none;
+    height: 150px;
+    padding: 20px 40px;
+}
+
+.becomeMember-form .form-control:focus{
+    border-color: #008000;
+}
+/*xs*/
+@media (max-width:767px){
+    .join-section{
+        background-size: auto 100%;
+
+    }
+    .join-content{
+        height: auto;
+        padding: 50px 0px;
+    }
+    .join-content .join-inner{
+        position: relative;
+        transform: translate(0px , 0px);
+    }
+    .becomeMember-form{
+        padding-top: 15px;
+        text-align: center;
+    }
+    .becomeMember-form label{
+        padding: 0px;
+    }
+}
+
+/*---------------------------- end join-section -------------------------------------------------*/
